@@ -1,0 +1,33 @@
+#msg {
+    color:red;
+    margin-bottom: 10px;
+}
+.td-4{
+    width: 120px;
+    display:flex;
+    gap:15px;
+}
+.td-8{
+    width: 750px;
+}
+@media (max-width:992px){
+    .td-8{
+        width: 400px;
+    }
+}
+@media (max-width:768px){
+    .td-8{
+        width: 300px;
+    }
+}
+@media (max-width:500px){
+    .td-4{
+        width: 80px;
+    }
+    .td-8{
+        width: 180px;
+    }
+}
+.td-task p{
+    word-wrap: break-word;
+}
